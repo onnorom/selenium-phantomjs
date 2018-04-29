@@ -21,7 +21,7 @@ public class WebDriverBase {
     WebDriverBase.setup();
     driver.get("https://www.testingexcellence.com");
     String pageTitle = driver.getTitle();
-    System.out.println("Page opened: {}"+pageTitle);
+    System.out.println("Page opened: {} "+pageTitle);
     driver.quit();
   }
 }
